@@ -23,7 +23,7 @@
                                 <a class="footer-td" href="/auction/setfilter?c=0&amp;t=0&amp;y=0">Аукционы</a>
                             </td>
                             <td>
-                                <a class="footer-td" href="/document/oferta_lot">Пользовательское соглашение</a>
+                                <a class="footer-td" href="/ofertalot">Пользовательское соглашение</a>
                             </td>
                             <td>
                                 <a class="footer-td" href="/howitworks">Как это работает</a>
@@ -31,10 +31,10 @@
                         </tr>
                         <tr>
                             <td>
-                                <a class="footer-td" id="lk_registration" style="cursor: pointer">Game zone</a>
+                                <a class="footer-td" href="/auction">Game zone</a>
                             </td>
                             <td>
-                                <a class="footer-td" href="/document/oferta_sale">Обработка персональных данных</a>
+                                <a class="footer-td" href="/personal_inf">Обработка персональных данных</a>
                             </td>
                             <td>
                                 <a class="footer-td" href="/document/secret">Вопросы ответы</a>
@@ -42,19 +42,19 @@
                         </tr>
                         <tr>
                             <td>
-                                <a class="footer-td" href="/buybids">Купить ставки</a>
+                                <a class="footer-td" href="/buy">Купить ставки</a>
                             </td>
                             <td>
-                                <a class="footer-td" href="/document/personal_information" style="margin-right: 5px;">Условия купли продажи</a>
+                                <a class="footer-td" href="/oferta_sale">Условия купли продажи</a>
                             </td>
                             <td>
-                                <a class="footer-td" href="/document/FAQ">Отзывы и видео</a>
+                                <a class="footer-td" href="/feedback">Отзывы и видео</a>
                             </td>
                         </tr>
                         <tr>
-                            <td><a class="footer-td" href="/document/adv">Личный кабинет</a></td>
-                            <td><a class="footer-td" href="/document/adv">Сотрудничайте с нами</a></td>
-                            <td><a class="footer-td" href="/document/adv">Советы для новичков</a></td>
+                            <td><a class="footer-td" href="/user/cabinet">Личный кабинет</a></td>
+                            <td><a class="footer-td" href="/cooperate">Сотрудничайте с нами</a></td>
+                            <td><a class="footer-td" href="/advices">Советы для новичков</a></td>
                         </tr>
                     </tbody></table>
               </div>
