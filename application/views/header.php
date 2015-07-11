@@ -15,7 +15,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $('#slider').anythingSlider({
                 theme           : 'cs-portfolio',
                 autoPlay            : true,
-                buildStartStop      : false, 
+                buildStartStop      : false,
+                resizeContents      : true, 
                 easing          : 'easeInOutBack',
                 navigationFormatter : function(index, panel){
                     return ['Slab', 'Parking Lot', 'Drive', 'Glorius Dawn', 'Bjork?', 'Traffic Circle'][index - 1];
@@ -29,17 +30,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 
-
 <div class="header">
 	<div class="top">
             <div class="topwr">
-              <div class="logo"><a href="/index.php/main" title="Name"><img class="imlogo" src="/" alt="Name"></a></div>
+              <div class="logo"><a href="/" title="Name"><img class="imlogo" src="/" alt="Name"></a></div>
               <div class="reg-log"><div class="treg-log" style="padding-top:0;"><div class="reg-log separator" style="width: 230px;"><span id="top_btn_registration">Регистрация</span></div>
               <div class="reg-log separator"><span id="top_btn_signin">Вход</span></div>
               <div id="signinfrm" class="signin-form rad_5px dropshadow5px transparrent" style="opacity: 0; left: -9999px;">
-                <img src="/img/close_grey.png" id="cosesigninform" title="Закрыть" alt="Закрыть">
-                <img src="/img/frm/frm_signin_pipka.png" class="pipka">
-                <img src="/img/shopbag_medium.png" class="shopbag">
+                <img src="/" id="cosesigninform" title="Закрыть" alt="Закрыть">
                 <h2>ВХОД</h2>
                 <form id="signin_form" action="/login" method="POST">
                   Электронная почта:
@@ -71,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           	<ul>
           		<li class=" mark"><a href="/auction/">АУКЦИОНЫ</a></li>
           		<li class="bullet"><a href="/auction/">GAME ZONE</a></li>
-          		<li class="bullet"><a href="/howitworks">КАК ЭТО РАБОТАЕТ</a></li>
+          		<li class="bullet"><a href="http://localhost/howitworks">КАК ЭТО РАБОТАЕТ</a></li>
           		<li class="bullet"><a href="/document/FAQ">ОТЗЫВЫ И ВИДЕО</a></li>
           		<li class="bullet"><a href="/feedback">ОБРАТНАЯ СВЯЗЬ</a></li>
           		<li class="bullet"><a href="/getbonuses">БОНУСЫ</a></li>

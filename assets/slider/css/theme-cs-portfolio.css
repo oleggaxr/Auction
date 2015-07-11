@@ -11,7 +11,7 @@ through which the background color is seen... so colors set will turn out darker
  *****************************/
 /* change the ID & dimensions to match your slider */
 #slider {
-	width: 700px;
+	width: 950px;
 	height: 390px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
@@ -29,22 +29,24 @@ through which the background color is seen... so colors set will turn out darker
 .anythingSlider-cs-portfolio {
 	margin: 0 auto 50px auto; /* added 50px to bottom to accomodate controls */
 	padding: 0;
+	box-shadow: 0px 0 50px rgba(0,0,0,0.6);
 }
 
 /* slider window - top & bottom borders, default state */
 .anythingSlider-cs-portfolio .anythingWindow {
 	border: 0;
+
 }
 /* Navigation buttons + start/stop button, default state */
 .anythingSlider-cs-portfolio .anythingControls a {
-	background: black url(../images/cs-portfolio.png) right -20px no-repeat;
+	background:black url(../images/cs-portfolio.png) right -20px no-repeat;
 	color: black;
 }
 /* Navigation current button, default state */
 .anythingSlider-cs-portfolio .anythingControls a.cur,
 .anythingSlider-cs-portfolio .anythingControls a:hover {
-	background-color: #FFF500;
-	color: #303030;
+	background-color: white;
+	color: white;
 }
 
 /* start-stop button, stopped, default state */
