@@ -3,6 +3,7 @@
             <div class="bottomwrapper">
               <div class="float-left" style="width:160px; padding-top:20px; text-align:left;"><div style="margin-bottom: 0px"><a href="/index.php/main" title="Name"><img src="/" alt="Name"></a></div><span class="copyright"><a href="/document/copyright" class="copyright">© 2015 Name</a></span></div>
 <div class="float-left" style="width:545px; padding: 0px 10px;">
+    
                 
                 <table cellspacing="1" cellpadding="0" border="0" style="line-height: 15px; height: auto; width: 490px;">
                         <tbody><tr>

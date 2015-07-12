@@ -6,5 +6,9 @@ class Lots_model extends CI_Model {
 		$query = $this->db->get('item');
 		return $query->result_array();
 	}
+	function edit_lots($data){
+		$this->db->where('inum','');
+	}
+
 
 }
